@@ -1,0 +1,436 @@
+<!-- 
+******************************************************************************************
+**                                  Universitas Siber Asia (UNSIA)
+**                                         PJJ Informatika
+**
+**                            NIM MAHASISWA     : 230401010103
+**                            NAMA MAHASISWA    : Oki Prianto
+**                            KELAS             : IT201
+**                            MATA KULIAH       : Pemograman Web I
+******************************************************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Oki Prianto</title>
+    <meta name="description" content="Portfolio Oki Prianto BackEnd Developer" />
+
+    <!-- For all link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Section untuk header yg ada di atas -->
+    <header class="header">
+        <div class="header__content">
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img 
+                        src="./assets/png/oki-prianto.png" 
+                        alt="No Image"
+                        class="header__logo-img"
+                    />
+                </div>
+                <span class="header__logo-sub">Oki Prianto</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="./index.html" class="header__link">Home</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#about" class="header__link">About</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#projects" class="header__link">Project</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#experience" class="header__link">Experience</a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#contact" class="header__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="header__main-ham-menu-cont">
+                    <img
+                        src="./assets/svg/ham-menu.svg"
+                        alt="hamburger menu"
+                        class="header__main-ham-menu"
+                    />
+                    <img
+                        src="./assets/svg/ham-menu-close.svg"
+                        alt="hamburger menu close"
+                        class="header__main-ham-menu-close d-none"
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-link">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html">Home</a>
+                    </li>
+                </ul>
+                <ul class="header__sm-menu-link">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#about">About</a>
+                    </li>
+                </ul>
+                <ul class="header__sm-menu-link">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#projects">Project</a>
+                    </li>
+                </ul>
+                <ul class="header__sm-menu-link">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#experience">Experience</a>
+                    </li>
+                </ul>
+                <ul class="header__sm-menu-link">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section untuk page home -->
+    <section class="home-hero">
+        <div class="home-hero__content">
+            <h1 class="heading-primary">Hey, My name is Oki Prianto</h1>
+            <div class="home-hero__info">
+                <p class="text-primary">
+                    A Back-End developer with a focus on the Golang programming language.
+                </p>
+            </div>
+            <div class="home-hero__cta">
+                <a href="./#projects" class="btn btn--bg">Projects</a>
+            </div>
+        </div>
+        <div class="home-hero__socials">
+            <div class="home-hero__social">
+              <a href="https://www.linkedin.com/in/oki-prianto-a38068149/" class="home-hero__social-icon-link" target="_blank">
+                <img
+                  src="./assets/png/linkedin-ico.png"
+                  alt="icon"
+                  class="home-hero__social-icon"
+                />
+              </a>
+            </div>
+            <div class="home-hero__social">
+              <a href="https://github.com/ZW-Rays" class="home-hero__social-icon-link" target="_blank">
+                <img
+                  src="./assets/png/github-ico.png"
+                  alt="icon"
+                  class="home-hero__social-icon"
+                />
+              </a>
+            </div>
+            <div class="home-hero__social">
+              <a href="#" class="home-hero__social-icon-link">
+                <img
+                  src="./assets/png/yt-ico.png"
+                  alt="icon"
+                  class="home-hero__social-icon"
+                />
+              </a>
+            </div>
+            <div class="home-hero__social">
+              <a
+                href="#"
+                class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+              >
+                <img
+                  src="./assets/png/insta-ico.png"
+                  alt="icon"
+                  class="home-hero__social-icon"
+                />
+              </a>
+            </div>
+        </div>
+        <div class="home-hero__mouse-scroll-cont">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Section untuk page about me -->
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main">About Me</span>
+            <span class="heading-sec__sub">
+                a Golang Back-End Developer who is passionate about building efficient technology solutions. 
+                With a focus on developing stable and scalable software, I enjoy solving technical challenges 
+                and collaborating with teams to achieve great results.
+            </span>
+          </h2>
+          <div class="about__content">
+            <div class="about__content-main">
+              <h3 class="about__content-title">Get to know me!</h3>
+              <div class="about__content-details">
+                <p class="about__content-details-para">
+                  Hello! I'm <strong>Oki Prianto</strong>, 
+                  a back-end developer specializing in the Golang programming language. 
+                  I enjoy technical challenges and enjoy creating efficient solutions.
+                </p>
+                <p class="about__content-details-para">
+                  I focus on developing stable and robust back-end systems using Golang. 
+                  I believe in writing clean code and clear documentation.
+                </p>
+                <p class="about__content-details-para">
+                    If you're interested in collaborating or just talking about software 
+                    development, don't hesitate to <strong>contact</strong> me!
+                </p>
+              </div>
+              <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+                >Contact</a
+              >
+            </div>
+            <div class="about__content-skills">
+              <h3 class="about__content-title">My Skills</h3>
+              <div class="skills">
+                <div class="skills__skill">Golang</div>
+                <div class="skills__skill">PostgreSql</div>
+                <div class="skills__skill">MySql</div>
+                <div class="skills__skill">Sonarqube</div>
+                <div class="skills__skill">Unittest</div>
+                <div class="skills__skill">GIT</div>
+                <div class="skills__skill">Object-Oriented Programming (OOP)</div>
+                <div class="skills__skill">Microservice</div>
+                <div class="skills__skill">Redis</div>
+                <div class="skills__skill">Programming</div>
+                <div class="skills__skill">Clean Code</div>
+                <div class="skills__skill">Debugging</div>
+                <div class="skills__skill">Rabbit MQ</div>
+                <div class="skills__skill">Nats JS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- project yg sudah pernah di buat -->
+    <section id="projects" class="projects sec-pad">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-bg">
+            <span class="heading-sec__main">Projects</span>
+            <span class="heading-sec__sub">
+                Below, you will find several projects I have designed and developed for back-end processes.
+            </span>
+          </h2>
+  
+          <div class="projects__content">
+            <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <img
+                  src="./assets/jpeg/gropoint.jpg"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">GroPoint</h3>
+                <p class="projects__row-content-desc">
+                    Application to get points from customer shopping, 
+                    and can convert points into rewards available in the application
+                </p>
+              </div>
+            </div>
+            <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <img
+                  src="./assets/jpeg/grolog.jpg"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">Grolog</h3>
+                <p class="projects__row-content-desc">
+                    This application is a route optimization application for the process of 
+                    distributing goods from the warehouse to customers via courier. 
+                    This application uses open source from Google, namely OR-TOOLS.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- untuk setifikat dan pendidikan -->
+    <section id="experience" class="experience sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-bg">
+              <span class="heading-sec__main">Experience</span>
+              <span class="heading-sec__sub">
+                The following is my experience in studying and getting a certificate.
+              </span>
+            </h2>
+
+            <div class="experience__content">
+                <div class="experience__table">
+                    <table>
+                        <h2 class="ta-center experience__table-h2">Pengalaman Sekolah</h2>
+                        <tr>
+                          <th>Tingkat</th>
+                          <th>Waktu</th>
+                          <th>Lokasi</th>
+                        </tr>
+                        <tr>
+                          <td>SMK</td>
+                          <td>2017-2020</td>
+                          <td>SMK NEGRI 11 BANDUNG</td>
+                        </tr>
+                        <tr>
+                          <td>KULIAH</td>
+                          <td>2023-NOW</td>
+                          <td>UNIVERSITAS CYBER ASIA</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="experience__table">
+                    <table>
+                        <h2 class="ta-center experience__table-h2">Sertifikat Online</h2>
+                        <tr>
+                            <th>Nama Sertifikat</th>
+                            <th>Penyelenggara</th>
+                            <th>Tahun</th>
+                        </tr>
+                        <tr>
+                            <td>Fun Coding Bootcamp: Fullstack</td>
+                            <td>G2Academy</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>GO (BASIC)</td>
+                            <td>HackerRank</td>
+                            <td>2021</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- untuk form contact -->
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+          <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+            <span class="heading-sec__sub heading-sec__sub--lt">
+                Feel free to contact me via email and fill out the form below 
+                for any questions or requests for further information.
+            </span>
+          </h2>
+          <div class="contact__form-container">
+            <form action="#" class="contact__form">
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Name</label>
+                <input
+                  required
+                  placeholder="Enter Your Name"
+                  type="text"
+                  class="contact__form-input"
+                  name="name"
+                  id="name"
+                />
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input
+                  required
+                  placeholder="Enter Your Email"
+                  type="text"
+                  class="contact__form-input"
+                  name="email"
+                  id="email"
+                />
+              </div>
+              <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Message</label>
+                <textarea
+                  required
+                  cols="30"
+                  rows="10"
+                  class="contact__form-input"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  id="message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn--theme contact__btn">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+    </section>
+
+    <!-- untuk footer webiste -->
+    <footer class="main-footer">
+        <div class="main-container">
+          <div class="main-footer__upper">
+            <div class="main-footer__row main-footer__row-1">
+              <h2 class="heading heading-sm main-footer__heading-sm">
+                <span>Social</span>
+              </h2>
+              <div class="main-footer__social-cont">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/oki-prianto-a38068149/">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/png/linkedin-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/ZW-Rays">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/png/github-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="#">
+                  <img
+                    class="main-footer__icon"
+                    src="./assets/png/yt-ico.png"
+                    alt="icon"
+                  />
+                </a>
+                <a target="_blank" rel="noreferrer" href="#">
+                  <img
+                    class="main-footer__icon main-footer__icon--mr-none"
+                    src="./assets/png/insta-ico.png"
+                    alt="icon"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="main-footer__row main-footer__row-2">
+              <h4 class="heading heading-sm text-lt">Oki Prianto</h4>
+              <p class="main-footer__short-desc">
+                A Back-End developer with a focus on the Golang programming language.
+              </p>
+            </div>
+          </div>
+  
+          <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+          <div class="main-footer__lower">
+            &copy; Copyright 2024.
+          </div>
+        </div>
+    </footer>
+
+    <!-- import script js -->
+    <script src="javascript/index.js"></script>
+</body>
+</html>
